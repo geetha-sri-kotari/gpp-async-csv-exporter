@@ -1,0 +1,33 @@
+{
+  "name": "gpp-async-csv-exporter",
+  "version": "1.0.0",
+  "main": "app/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geetha-sri-kotari/gpp-async-csv-exporter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geetha-sri-kotari/gpp-async-csv-exporter/issues"
+  },
+  "homepage": "https://github.com/geetha-sri-kotari/gpp-async-csv-exporter#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jest": "^29.7.0",
+    "pg": "^8.18.0",
+    "pg-cursor": "^2.17.0",
+    "supertest": "^6.3.4",
+    "uuid": "^13.0.0"
+  }
+}
